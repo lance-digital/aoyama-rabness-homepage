@@ -33,17 +33,17 @@ export default async function Page({ searchParams }: Props) {
               <dl>
                 <dt className={styles.name}>{member.name}</dt>
                 <dd className={styles.position}>{member.position}</dd>
-                <dd className={styles.profile}>{member.profile}</dd>
+                <dd className={styles.profile1}>{member.profile1}</dd>
+                <dd className={styles.profile2}>{member.profile2}</dd>
+                <dd className={styles.profile3}>{member.profile3}</dd>
+                <dd className={styles.profile4}>{member.profile4}</dd>
+                <dd className={styles.profile5}>{member.profile5}</dd>
+                <dd className={styles.profile6}>{member.profile6}</dd>
               </dl>
             </li>
           ))}
         </ul>
       )}
-      <div className={styles.footer}>
-        <h2 className={styles.message}>We are hiring</h2>
-        <p>私たちは共にチャレンジする仲間を募集しています。</p>
-        <ButtonLink href="">採用情報へ</ButtonLink>
-      </div>
     </div>
   );
 }

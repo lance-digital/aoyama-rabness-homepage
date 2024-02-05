@@ -15,14 +15,12 @@ export default async function Page() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
-          <p className={styles.description}>
-            私たちは市場をリードしているグローバルテックカンパニーです。
-          </p>
+          <h1 className={styles.title}></h1>
+          <p className={styles.description}></p>
         </div>
         <Image
           className={styles.bgimg}
-          src="/img-mv.jpg"
+          src="/aorabphoto.png"
           alt=""
           width={3600}
           height={1200}
@@ -30,31 +28,24 @@ export default async function Page() {
         />
       </section>
       <section className={styles.news}>
-        <h2 className={styles.newsTitle}>News</h2>
+        <h2 className={styles.newsTitle}>WHAT'S NEW</h2>
         <NewsList articles={data.contents} />
         <div className={styles.newsLink}>
           <ButtonLink href="/news">もっとみる</ButtonLink>
         </div>
       </section>
-      <section className={styles.section}>
+      <section className={styles.movie}>
         <div className={styles.horizontal}>
-          <div>
-            <h2 className={styles.sectionTitleEn}>Business</h2>
-            <p className={styles.sectionTitleJa}>事業内容</p>
-            <p className={styles.sectionDescription}>
-              当社は、次世代テクノロジーの研究開発・製造・販売を行う革新的な企業です。
-              <br />
-              AI、ロボット工学、自律システムなど、幅広い分野でのソリューション提供を通じて、社会の進化と未来の創造に貢献します。
-            </p>
+          <div className={styles.movieContainer}>
+            <div className={styles.movieIteme}>
+              <p className={styles.movieTitle}>5th Single『しあわせカーテン』MV</p>
+              <p className={styles.movieTitle}>4thシングル『シンデレラサマー』MV</p>
+              <p className={styles.movieTitle}>3rdシングル『Speak like a star child』MV</p>
+              <p className={styles.movieTitle}>2ndシングル『わがままヘアアレンジ』MV</p>
+              <p className={styles.movieTitle}>1st Single『マイアミ・ブルー』MV</p>
+            </div>
             <ButtonLink href="/business">もっとみる</ButtonLink>
           </div>
-          <Image
-            className={styles.businessImg}
-            src="/img-business.png"
-            alt=""
-            width={1024}
-            height={1024}
-          />
         </div>
       </section>
       <div className={styles.aboutus}>

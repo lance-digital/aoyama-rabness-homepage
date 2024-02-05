@@ -14,28 +14,38 @@ export default function Menu() {
       <nav className={cx(styles.nav, isOpen && styles.open)}>
         <ul className={styles.items}>
           <li>
-            <Link href="/news" onClick={close}>
-              ニュース
-            </Link>
-          </li>
-          <li>
-            <Link href="/business" onClick={close}>
-              事業内容
+            <Link href="" onClick={close}>
+              HOME
             </Link>
           </li>
           <li>
             <Link href="/members" onClick={close}>
-              メンバー
+              MEMBER
             </Link>
           </li>
           <li>
-            <Link href="" onClick={close}>
-              採用情報
+            <Link href="/news" onClick={close}>
+              WHAT'S NEW
+            </Link>
+          </li>
+          <li>
+            <Link href="/discography" onClick={close}>
+              DISCOGRAPHY
+            </Link>
+          </li>
+          <li>
+            <Link href="/schedule" onClick={close}>
+              SCHEDULE
+            </Link>
+          </li>
+          <li>
+            <Link href="/regulation" onClick={close}>
+              REGULATION
             </Link>
           </li>
           <li>
             <Link href="/contact" onClick={close}>
-              お問い合わせ
+              CONTACT
             </Link>
           </li>
         </ul>
