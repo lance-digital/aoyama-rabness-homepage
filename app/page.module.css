@@ -6,7 +6,7 @@
   /* background-color: rgba(0, 0, 0, 0.5); */
   color: #fff;
   overflow: hidden;
-  padding: 0px 0;
+  padding: 365px 0;
 }
 
 .title {
@@ -54,12 +54,16 @@
 }
 
 .movie {
-  width: 920px;
-  margin: 0 auto;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .movieContainer {
+  overflow-x: scroll;
+}
+
+.movieIteme {
+  padding-top: 15px;
+  display: flex;
 }
 
 .sectionTitleJa::before {
