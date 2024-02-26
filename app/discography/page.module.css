@@ -1,0 +1,44 @@
+.text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.singleJaket {
+  padding: 10px;
+  display: flex;
+}
+
+.singleJaket img {
+  width: 50%;
+}
+
+.singleTitle {
+  padding-top: 145px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.MusicAppLink {
+  display: flex;
+  overflow-x: scroll;
+  width: 90%;
+}
+
+.MusicAppLink li {
+  white-space: nowrap;
+  margin: 0px 5px;
+}
+
+.MusicAppLink li:hover {
+  background-color: darkgrey;
+}
+
+.link {
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .text {
+    text-align: left;
+  }
+}

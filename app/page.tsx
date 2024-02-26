@@ -39,6 +39,7 @@ export default async function Page() {
           <div className={styles.movieContainer}>
             <div className={styles.movieIteme}>
               <div className={styles.movieWrap}>
+                <p>5th Single『しあわせカーテン』MV</p>
                 <iframe
                   width="350"
                   height="300"
@@ -50,6 +51,7 @@ export default async function Page() {
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
+                <p>4thシングル『シンデレラサマー』MV</p>
                 <iframe
                   width="350"
                   height="300"
@@ -61,6 +63,7 @@ export default async function Page() {
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
+                <p>3rdシングル『Speak like a star child』MV</p>
                 <iframe
                   width="350"
                   height="300"
@@ -72,6 +75,7 @@ export default async function Page() {
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
+                <p>2ndシングル『わがままヘアアレンジ』MV</p>
                 <iframe
                   width="350"
                   height="300"
@@ -83,6 +87,7 @@ export default async function Page() {
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
+                <p>1st Single『マイアミ・ブルー』MV</p>
                 <iframe
                   width="350"
                   height="300"
@@ -94,73 +99,82 @@ export default async function Page() {
                 ></iframe>
               </div>
             </div>
-            <ButtonLink href="/business">もっとみる</ButtonLink>
+            {/* <ButtonLink href="/business">もっとみる</ButtonLink> */}
           </div>
         </div>
       </section>
-      <div className={styles.aboutus}>
-        <section className={styles.section}>
+      <div className={styles.profile}>
+        <div className={styles.profileTitle}>
+          <p>PROFILE</p>
+        </div>
+        <section>
           <div className={styles.horizontal}>
-            <Image
-              className={styles.aboutusImg}
-              src="/img-aboutus.jpg"
-              alt=""
-              width={6000}
-              height={4000}
-            />
-            <div>
-              <h2 className={styles.sectionTitleEn}>About Us</h2>
-              <p className={styles.sectionTitleJa}>私たちについて</p>
-              <p className={styles.sectionDescription}>
-                「テクノロジーの力で世界を変える」をミッションに掲げ、日々活動をしています。
+            <div className={styles.profileContent}>
+              <p>
+                2020年1月24日デビューの正統派王道アイドルグループ！<br></br>
+                何にも染まらない「あなたのままで」をコンセプトに 活動しております。<br></br>
+                音楽はエレクトリック×王道メロディラインで、<br></br>
+                懐かしいけど新しいをテーマに楽曲を提供しております。
               </p>
-              <dl className={styles.info}>
-                <dt className={styles.infoTitle}>社名</dt>
-                <dd className={styles.infoDescription}>株式会社Simple</dd>
-              </dl>
-              <dl className={styles.info}>
-                <dt className={styles.infoTitle}>設立</dt>
-                <dd className={styles.infoDescription}>2023年4月</dd>
-              </dl>
-              <dl className={styles.info}>
-                <dt className={styles.infoTitle}>所在地</dt>
-                <dd className={styles.infoDescription}>
-                  〒000-0000
-                  <br />
-                  東京都渋谷区渋谷1-1-1
-                </dd>
-              </dl>
-              <dl className={styles.info}>
-                <dt className={styles.infoTitle}>代表者</dt>
-                <dd className={styles.infoDescription}>鈴木 太郎</dd>
-              </dl>
-              <dl className={styles.info}>
-                <dt className={styles.infoTitle}>資本金</dt>
-                <dd className={styles.infoDescription}>1,000万円</dd>
-              </dl>
             </div>
+          </div>
+          <div className={styles.profileImg}>
+            <img className={styles.memberImg} src="rikosan-photo.png" alt="" />
+            <img className={styles.memberImg} src="honokasan-photo.png" alt="" />
+            <img className={styles.memberImg} src="reisan-photo.png" alt="" />
+            <img className={styles.memberImg} src="harunasan-photo.png" alt="" />
+            <img className={styles.memberImg} src="miriasan-photo.png" alt="" />
+            <img className={styles.memberImg} src="rukasan-photo.png" alt="" />
           </div>
         </section>
       </div>
       <section className={styles.section}>
+        <img className={styles.aorabGoodsImg} src="aorab-goods.png" alt="" />
+        <div className={styles.side}>
+          <p>公式ファンアプリ</p>
+          <img className={styles.aorabFanappImg} src="aorab-fanapp.png" alt="" />
+          <ul className={styles.SNSbtn}>
+            <li>
+              <a href="https://twitter.com/AoyamaRabness" target="_blank">
+                <img src="X-icon.jpg" alt="twitter" width="40" height="40" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/aoyama_rabness/" target="_blank">
+                <img src="instagram.png" alt="instagram" width="40" height="40" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCSdMSoA-0HHHz575n0ZNgwg" target="_blank">
+                <img src="youtube.png" alt="youtube" width="40" height="40" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@aoyama_rabness?language=ja&amp;sec_uid=MS4wLjABAAAASOisPmax5bydZp0L66VdwR8bxbuFgLHHYBMEYln8xFupnBPb35nua_QKmBkOq5Y7&amp;u_code=da5a099d9g5fhi&amp;utm_source=copy&amp;app=tiktok&amp;iid=6810301971712902913&amp;utm_campaign=client_share&amp;utm_medium=ios&amp;tt_from=copy&amp;user_id=6776798000825222145&amp;source=h5_t&amp;_r=1"
+                target="_blank"
+              >
+                <img src="tiktok.png" alt="tiktok" width="40" height="40" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section className={styles.section}>
         <div className={styles.horizontal}>
-          <div>
-            <h2 className={styles.sectionTitleEn}>We are hiring</h2>
-            <p className={styles.sectionTitleJa}>採用情報</p>
-            <p className={styles.sectionDescription}>
-              当社では、チャレンジ精神を持った人材を求めています。
-              <br />
-              新しいアイデアを出し合い、成長する環境で活躍したい方は、ぜひご応募ください。当社でのキャリアを築きながら、技術の最前線で力を発揮しましょう。
-            </p>
-            <ButtonLink href="">採用情報へ</ButtonLink>
+          <div className={styles.discography}>
+            <h2 className={styles.sectionTitleEn}>DISCOGRAPHY</h2>
+            <div className={styles.discographyItem}>
+              <div className={styles.jaketImg}>
+                <img src="5th-single-jaket.png" alt="" />
+                <img src="4th-single-jaket.png" alt="" />
+                <img src="3th-single-jaket.png" alt="" />
+                <img src="2th-single-jaket.png" alt="" />
+                <img src="1th-single-jaket.png" alt="" />
+              </div>
+            </div>
+            <ButtonLink href="/discography">詳しくはこちら</ButtonLink>
           </div>
-          <Image
-            className={styles.hiringImg}
-            src="/img-hiring.jpg"
-            alt=""
-            width={960}
-            height={960}
-          />
         </div>
       </section>
     </>
