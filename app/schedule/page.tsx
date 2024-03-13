@@ -3,6 +3,7 @@ import styles from './page.module.css';
 export default function Page() {
   return (
     <div className={styles.container}>
+      <img className={styles.title} src="スケジュール.png" alt="" />
       <iframe
         src="https://calendar.google.com/calendar/embed?src=naora.yuki%40lance-digital.com&ctz=Asia%2FTokyo"
         // style="border: 0"

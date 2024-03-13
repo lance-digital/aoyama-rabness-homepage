@@ -3,6 +3,7 @@ import styles from './page.module.css';
 export default function Page() {
   return (
     <div className={styles.container}>
+      <img className={styles.title} src="ディスコグラフィ.png" alt="" />
       <ul>
         <li className={styles.singleJaket}>
           <img src="5th-single-jaket.png" alt="5th-single-jaket" />
@@ -60,7 +61,7 @@ export default function Page() {
           <li>
             <div className={styles.link}>
               <a href="https://www.youtube.com/watch?v=mVCQ8cdHh9U" target="_blank">
-                <img src="youtube-icon.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
+                <img src="YouTube_アイコン.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
               </a>
               <div>
                 <a href="https://www.youtube.com/watch?v=mVCQ8cdHh9U" target="_blank">
@@ -216,6 +217,7 @@ export default function Page() {
           </li>
         </ul>
       </ul>
+      <img className={styles.decoration} src="リボン_装飾.png" alt="" />
       <ul>
         <li className={styles.singleJaket}>
           <img src="4th-single-jaket.png" alt="4th-single-jaket" />
@@ -291,7 +293,7 @@ export default function Page() {
           <li>
             <div className={styles.link}>
               <a href="https://www.youtube.com/watch?v=HhODbnhtbyA" target="_blank">
-                <img src="youtube-icon.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
+                <img src="YouTube_アイコン.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
               </a>
               <div>
                 <a href="https://www.youtube.com/watch?v=HhODbnhtbyA" target="_blank">
@@ -447,6 +449,7 @@ export default function Page() {
           </li>
         </ul>
       </ul>
+      <img className={styles.decoration} src="リボン_装飾.png" alt="" />
       <ul>
         <li className={styles.singleJaket}>
           <img src="3th-single-jaket.png" alt="3th-single-jaket" />
@@ -523,7 +526,7 @@ export default function Page() {
         <li>
           <div className={styles.link}>
             <a href="https://www.youtube.com/watch?v=UeHc8LgzGBU" target="_blank">
-              <img src="youtube-icon.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
+              <img src="YouTube_アイコン.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
             </a>
             <div>
               <a href="https://www.youtube.com/watch?v=UeHc8LgzGBU" target="_blank">
@@ -704,6 +707,7 @@ export default function Page() {
           </div>
         </li>
       </ul>
+      <img className={styles.decoration} src="リボン_装飾.png" alt="" />
       <ul>
         <li className={styles.singleJaket}>
           <img src="2th-single-jaket.png" alt="2th-single-jaket" />
@@ -909,6 +913,7 @@ export default function Page() {
           </div>
         </li>
       </ul>
+      <img className={styles.decoration} src="リボン_装飾.png" alt="" />
       <ul>
         <li className={styles.singleJaket}>
           <img src="1th-single-jaket.png" alt="1th-single-jaket" />
@@ -985,7 +990,7 @@ export default function Page() {
         <li>
           <div className={styles.link}>
             <a href="https://www.youtube.com/watch?v=Asj7KwVwj1k" target="_blank">
-              <img src="youtube-icon.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
+              <img src="YouTube_アイコン.png" alt="" width="22" height="22" viewBox="0 0 45 45" />
             </a>
             <div>
               <a href="https://www.youtube.com/watch?v=Asj7KwVwj1k" target="_blank">
@@ -1140,6 +1145,7 @@ export default function Page() {
           </div>
         </li>{' '}
       </ul>
+      <img className={styles.decoration} src="リボン_装飾.png" alt="" />
     </div>
   );
 }

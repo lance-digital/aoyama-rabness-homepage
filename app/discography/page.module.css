@@ -3,6 +3,10 @@
   margin-bottom: 40px;
 }
 
+.title {
+  width: 700px;
+}
+
 .singleJaket {
   padding: 10px;
   display: flex;
@@ -35,6 +39,15 @@
 
 .link {
   display: flex;
+}
+
+.decoration {
+  width: 180px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -15%);
 }
 
 @media (max-width: 640px) {

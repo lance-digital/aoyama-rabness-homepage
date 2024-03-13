@@ -17,6 +17,7 @@ export default async function Page({ searchParams }: Props) {
   });
   return (
     <div className={styles.container}>
+      <img className={styles.title} src="メンバー.png" alt="" />
       {data.contents.length === 0 ? (
         <p className={styles.empty}>メンバーが登録されていません。</p>
       ) : (
@@ -30,7 +31,7 @@ export default async function Page({ searchParams }: Props) {
                 height={member.image?.height}
                 className={styles.image}
               />
-              <dl>
+              <dl className={styles.profile}>
                 <dt className={styles.name}>{member.name}</dt>
                 <dd className={styles.position}>{member.position}</dd>
                 <dd className={styles.profile1}>{member.profile1}</dd>

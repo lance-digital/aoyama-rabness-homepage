@@ -136,7 +136,7 @@ export default async function Page() {
           <ul className={styles.SNSbtn}>
             <li>
               <a href="https://twitter.com/AoyamaRabness" target="_blank">
-                <img src="X-icon.jpg" alt="twitter" width="40" height="40" />
+                <img src="X_アイコン.png" alt="twitter" width="40" height="40" />
               </a>
             </li>
             <li>
@@ -146,7 +146,7 @@ export default async function Page() {
             </li>
             <li>
               <a href="https://www.youtube.com/channel/UCSdMSoA-0HHHz575n0ZNgwg" target="_blank">
-                <img src="youtube.png" alt="youtube" width="40" height="40" />
+                <img src="YouTube_アイコン.png" alt="youtube" width="40" height="40" />
               </a>
             </li>
             <li>

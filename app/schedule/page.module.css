@@ -3,6 +3,10 @@
   margin-bottom: 40px;
 }
 
+.title {
+  width: 700px;
+}
+
 @media (max-width: 640px) {
   .text {
     text-align: left;

@@ -14,6 +14,10 @@
   flex-direction: row-reverse;
 }
 
+.title {
+  width: 700px;
+}
+
 .image {
   width: 240px;
   height: auto;
@@ -30,7 +34,22 @@
 }
 
 .profile {
-  font-size: 0.9rem;
+  background-color: rgb(255, 117, 255);
+  border-radius: 10px;
+  width: 400px;
+  height: 320px;
+}
+
+.profile:first-of-type {
+  background-color: honeydew;
+}
+
+.decoration {
+  width: 180px;
+  padding-top: 130px;
+  position: relative;
+  left: 50%;
+  transform: translate(-150%, -15%);
 }
 
 .footer {

@@ -4,6 +4,7 @@ import ContactForm from '@/app/_components/ContactForm';
 export default function Page() {
   return (
     <div className={styles.container}>
+      <img className={styles.title} src="コンタクト.png" alt="" />
       <p className={styles.text}>
         ご質問、ご相談は下記フォームよりお問い合わせください。
         <br />
