@@ -1,0 +1,51 @@
+.text {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.fanapplogo {
+  text-align: center;
+  width: 300px;
+  margin-left: 150px;
+}
+
+.title {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.appDownload {
+  padding: auto;
+  height: 150px;
+}
+
+.app {
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.functionImg {
+  padding-top: 10px;
+  width: 670px;
+}
+
+.function li {
+  margin-top: 20px;
+  background-color: rgb(88, 188, 255);
+  color: white;
+  border-radius: 10px;
+}
+
+.function h2 {
+  padding-left: 10px;
+}
+
+.function p {
+  padding: 0 10px;
+}
+
+@media (max-width: 640px) {
+  .text {
+    text-align: left;
+  }
+}
