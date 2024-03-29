@@ -12,4 +12,8 @@
   .text {
     text-align: left;
   }
+  .title {
+    width: 360px;
+    margin-bottom: 40px;
+  }
 }

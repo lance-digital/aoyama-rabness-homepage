@@ -54,4 +54,12 @@
   .text {
     text-align: left;
   }
+  .title {
+    width: 360px;
+  }
+  .singleTitle {
+    padding-top: 40px;
+    padding-left: 10px;
+    text-align: center;
+  }
 }

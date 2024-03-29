@@ -1,6 +1,7 @@
 .text {
   margin-top: 10px;
   margin-bottom: 40px;
+  color: rgb(0, 217, 255);
 }
 
 .title {
@@ -33,5 +34,15 @@
 @media (max-width: 640px) {
   .text {
     text-align: left;
+  }
+  .title {
+    width: 360px;
+  }
+  .goodsImg {
+    width: 360px;
+  }
+  .address {
+    width: 360px;
+    background-color: lightblue;
   }
 }

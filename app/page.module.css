@@ -198,6 +198,19 @@
 }
 
 @media (max-width: 1000px) {
+  .bgimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: -1; */
+  }
   .news {
     width: calc(100% - 160px);
   }
@@ -226,19 +239,18 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: auto;
-    height: 600px;
+    height: 240px;
     object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: -1;
-    padding: 310px 0;
   }
 
   .news {
     width: calc(100% - 32px);
-    padding: 16px 24px;
+    padding: 20px 24px;
+    margin-top: 10px;
   }
 
   .newsLink {
@@ -252,6 +264,8 @@
     width: 100%;
     margin: auto;
     padding: 80px 16px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .sectionTitleEn {
@@ -287,6 +301,44 @@
   .businessImg {
     width: 100%;
     height: auto;
+  }
+
+  .movieContainer {
+    width: 430px;
+    overflow-x: scroll;
+  }
+
+  .profile {
+    width: 80%;
+    height: auto;
+    margin-left: 50px;
+  }
+
+  .aorabGoodsImg {
+    width: 340px;
+    height: 240px;
+  }
+
+  .aorabFanappImg {
+    width: 220px;
+    margin-left: 80px;
+  }
+
+  .SNSbtn {
+    display: flex;
+    margin-left: 80px;
+  }
+
+  .SNSbtn li {
+    padding: 10px;
+  }
+
+  .twitter {
+    background-color: #1da1f2;
+  }
+
+  .twitter path {
+    color: #fff;
   }
 
   .aboutusImg {

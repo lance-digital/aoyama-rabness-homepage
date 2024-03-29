@@ -7,8 +7,19 @@
   width: 700px;
 }
 
+.iframe {
+  width: 700px;
+}
+
 @media (max-width: 640px) {
   .text {
     text-align: left;
+  }
+
+  .title {
+    width: 360px;
+  }
+  .iframe {
+    width: auto;
   }
 }
