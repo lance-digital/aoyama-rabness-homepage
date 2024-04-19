@@ -28,7 +28,7 @@ export default async function Page() {
         />
       </section>
       <section className={styles.news}>
-        <h2 className={styles.newsTitle}>WHAT'S NEW</h2>
+        <h2 className={styles.newsTitle}>WHAT&apos;S NEW</h2>
         <NewsList articles={data.contents} />
         <div className={styles.newsLink}>
           <ButtonLink href="/news">もっとみる</ButtonLink>
