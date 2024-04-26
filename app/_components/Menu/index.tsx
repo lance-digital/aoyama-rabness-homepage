@@ -25,7 +25,7 @@ export default function Menu() {
           </li>
           <li>
             <Link href="/news" onClick={close}>
-              WHAT'S NEW
+              WHAT&apos;S NEW
             </Link>
           </li>
           <li>
