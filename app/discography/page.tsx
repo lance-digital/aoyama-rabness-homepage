@@ -22,9 +22,6 @@ export default function Page() {
             <a
               href="https://geo.music.apple.com/jp/album/_/1636163921?i=1636163922&amp;mt=1&amp;app=music&amp;ls=1"
               target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Listen to Shiawase Curtain by Aoyama Rabness on Apple Music"
-              class="css-4zleql"
             >
               <div className={styles.link}>
                 <a
@@ -57,13 +54,7 @@ export default function Page() {
           </li>
           <li>
             <div className={styles.link}>
-              <a
-                href="https://music.youtube.com/watch?v=mVCQ8cdHh9U"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Listen to しあわせカーテン by 青山Rabness on YouTube Music"
-                class="css-4zleql"
-              ></a>
+              <a href="https://music.youtube.com/watch?v=mVCQ8cdHh9U" target="_blank"></a>
               <div>
                 <a href="https://music.youtube.com/watch?v=mVCQ8cdHh9U" target="_blank">
                   <img
