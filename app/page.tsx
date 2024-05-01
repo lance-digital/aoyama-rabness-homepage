@@ -173,7 +173,7 @@ export default async function Page() {
                 <img src="1th-single-jaket.png" alt="" />
               </div>
             </div>
-            <ButtonLink href="/discography">詳しくはこちら</ButtonLink>
+            {/* <ButtonLink href="/discography">詳しくはこちら</ButtonLink> */}
           </div>
         </div>
       </section>
