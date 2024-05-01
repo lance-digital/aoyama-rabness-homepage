@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div className={styles.container}>
       <img className={styles.title} src="レギュレーション.png" alt="" />
-      <h1 className={styles.text}>各種イベントにおけるレギュレーション</h1>
+      <h1 className={styles.text}>◆各種イベントにおけるレギュレーション</h1>
       <p>
         各種イベントにおけるレギュレーション(ルール)です
         <br />
@@ -13,7 +13,7 @@ export default function Page() {
         <br />
         何卒、ご理解ご協力の程、宜しくお願い致します。内容については変更になる可能性がございます。
       </p>
-      <h1 className={styles.text}>特典会レギュレーション</h1>
+      <h1 className={styles.text}>◆特典会レギュレーション</h1>
       <p>
         青山Rabness <br />
         サイン付き2ショットチェキ（1分トーク・1ショット可）・・・・・・・1,000円
@@ -21,7 +21,7 @@ export default function Page() {
         ※特典会参加券は当日限り有効です。
       </p>
       <img className={styles.goodsImg} src="aorab-goods.png" alt="" />
-      <h1 className={styles.text}>注意事項</h1>
+      <h1 className={styles.text}>◆注意事項</h1>
       <p>
         ・特典会参加券は用意数が無くなり次第終了となります。 <br />
         ・特典会は列が途切れ次第終了とさせて頂きますので、注意してお並びください。
@@ -31,7 +31,7 @@ export default function Page() {
         <br />
         ・特典会での接触は衣装含め禁止、連絡先を渡す、伝える行為も禁止させていただいております。
       </p>
-      <h1 className={styles.text}>メンバーへのプレゼントに関して</h1>
+      <h1 className={styles.text}>◆メンバーへのプレゼントに関して</h1>
       <p>物販時、スタッフにお渡しい頂くか下記の住所までお送りください。</p>
       <div className={styles.address}>
         <ul>
@@ -63,7 +63,7 @@ export default function Page() {
       </p>
       <br />
       <p>※上記以外でもスタッフの判断によりお受け取り出来ない場合もございます。</p>
-      <h1 className={styles.text}>会場内での禁止行為</h1>
+      <h1 className={styles.text}>◆会場内での禁止行為</h1>
       <p>
         以下に該当する行為等が確認出来た場合は、退場いただいたり、以降のイベントへの参加をお断りさせていただく場合がございます。
       </p>
@@ -87,7 +87,7 @@ export default function Page() {
         <br />
         ・他のお客様への暴言や迷惑行為
       </p>
-      <h1 className={styles.text}>その他注意事項</h1>
+      <h1 className={styles.text}>◆その他注意事項</h1>
       <p>
         ・会場での盗難等の責任は一切負いかねます予めご了承ください。
         <br />

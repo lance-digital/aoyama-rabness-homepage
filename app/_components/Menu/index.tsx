@@ -29,8 +29,8 @@ export default function Menu() {
             </Link>
           </li>
           <li>
-            <Link href="/discography" onClick={close}>
-              DISCOGRAPHY
+            <Link href="/funclub" onClick={close}>
+              FUNCLUB
             </Link>
           </li>
           <li>

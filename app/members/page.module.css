@@ -87,6 +87,10 @@
     flex-direction: column;
   }
 
+  .title {
+    width: 360px;
+  }
+
   .name {
     text-align: center;
   }

@@ -20,7 +20,10 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
-      <p>© SIMPLE. All Rights Reserved 2023</p>
+      <p>
+        © SIMPLE. All Rights Reserved 2023 <br />
+        https://icons8.jp/
+      </p>
     </footer>
   );
 }
