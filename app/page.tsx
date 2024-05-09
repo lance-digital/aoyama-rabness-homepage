@@ -45,9 +45,7 @@ export default async function Page() {
                   height="300"
                   src="https://www.youtube.com/embed/hkVV52IU1eM"
                   title="青山Rabness / 5th Single「しあわせカーテン」[Music Video]"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
@@ -57,9 +55,7 @@ export default async function Page() {
                   height="300"
                   src="https://www.youtube.com/embed/tDHkaXm0hRU"
                   title="青山Rabness / 4th Single「シンデレラサマー」[Music Video]"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
@@ -69,9 +65,7 @@ export default async function Page() {
                   height="300"
                   src="https://www.youtube.com/embed/vGEzoKIo9jA"
                   title="青山Rabness / 3rd Single「Speak like a star child」[Music Video]"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
@@ -81,9 +75,7 @@ export default async function Page() {
                   height="300"
                   src="https://www.youtube.com/embed/qSMQZ3LkC1U"
                   title="青山Rabness / 2nd Single わがままヘアアレンジ [Music Video]"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
                 ></iframe>
               </div>
               <div className={styles.movieWrap}>
@@ -93,9 +85,7 @@ export default async function Page() {
                   height="300"
                   src="https://www.youtube.com/embed/T0lwViJMvc0"
                   title="青山Rabness / 1st Single「マイアミ・ブルー」[Music Video]"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
                 ></iframe>
               </div>
             </div>
