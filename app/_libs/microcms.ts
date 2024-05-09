@@ -27,6 +27,12 @@ export type Member = {
   name: string;
   position: string;
   profile: string;
+  profile1: string;
+  profile2: string;
+  profile3: string;
+  profile4: string;
+  profile5: string;
+  profile6: string;
   image?: MicroCMSImage;
 };
 
